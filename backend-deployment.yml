@@ -17,5 +17,5 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ddarahakit2024/backend:1.0
+          image: ddarahakit2024/backend:latest
       terminationGracePeriodSeconds: 3
