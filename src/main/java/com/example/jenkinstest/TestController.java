@@ -12,7 +12,7 @@ public class TestController {
     @RequestMapping(method = RequestMethod.GET, value = "/test")
     public ResponseEntity<String> test(String name, Long price) {
 
-        return ResponseEntity.ok("v6");
+        return ResponseEntity.ok("v7");
     }
 
 }
